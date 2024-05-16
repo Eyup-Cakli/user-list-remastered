@@ -1,0 +1,17 @@
+.container {
+  padding: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkorchid;
+  .title {
+    margin-right: auto;
+    margin-left: 250px;
+    color: white;
+    font-synthesis-weight: none;
+  }
+  .add-icon-button {
+    margin-right: 50px;
+    color: white;
+  }
+}

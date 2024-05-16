@@ -13,23 +13,25 @@ import { UserModel } from '../../models/user-model';
 import { userData } from '../../models/user-list';
 import { TablePipePipe } from '../table-pipe.pipe';
 import { UserDialogComponent } from '../user-dialog/user-dialog.component';
+import { HeaderComponent } from "../header/header.component";
 
 @Component({
-  selector: 'app-home-page',
-  standalone: true,
-  templateUrl: './home-page.component.html',
-  styleUrl: './home-page.component.scss',
-  imports: [
-    MatFormFieldModule,
-    MatInputModule,
-    MatTableModule,
-    MatSortModule,
-    MatPaginatorModule,
-    MatIconModule,
-    TablePipePipe,
-    MatMenuModule,
-    MatIconButton
-  ],
+    selector: 'app-home-page',
+    standalone: true,
+    templateUrl: './home-page.component.html',
+    styleUrl: './home-page.component.scss',
+    imports: [
+        MatFormFieldModule,
+        MatInputModule,
+        MatTableModule,
+        MatSortModule,
+        MatPaginatorModule,
+        MatIconModule,
+        TablePipePipe,
+        MatMenuModule,
+        MatIconButton,
+        HeaderComponent
+    ]
 })
 export class HomePageComponent {
   userData: UserModel[] = userData;
