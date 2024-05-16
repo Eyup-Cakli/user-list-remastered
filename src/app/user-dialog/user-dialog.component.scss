@@ -1,0 +1,29 @@
+.close-button-container{
+  display: flex;
+  justify-content: flex-end;
+  .close-button{
+    background-color: red;
+    border-radius: 1rem;
+    .close-button-icon{
+      border-radius: 0;
+    }
+  }
+}
+.container{
+  border-radius: 2rem;
+  width: max-content;
+  height: max-content;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  .save-button{
+    display: flex;
+    justify-content: center;
+    button{
+      color: white;
+      border-radius: 2rem;
+    }
+  }
+}
